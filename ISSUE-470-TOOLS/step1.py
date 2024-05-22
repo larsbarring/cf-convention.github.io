@@ -193,9 +193,9 @@ def do_the_work(version):
     elif version == 71:
         xml_raw = fix_v71_datetime(xml_raw)
 
-    xml_raw = change_to_first_published_tag(xml_raw)
-    
-    xml_raw = add_last_modified_tag(xml_raw)
+    if "first_published" not in xml_raw:
+        xml_raw = change_to_first_published_tag(xml_raw)
+        xml_raw = add_last_modified_tag(xml_raw)
 
     xml_raw = add_conventions(xml_raw)
 
