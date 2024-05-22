@@ -38,7 +38,7 @@ if __name__ == "__main__":
         prog="compact_errors",
         description=("\nCompact error lists to show in which version each error occur.")
     )
-    parser.add_argument("filename", type=str, metavar="FILENAME", required=True,
+    parser.add_argument("filename", type=str, metavar="FILENAME",
                         help="Name of error file to process.")
     args = parser.parse_args()
 
