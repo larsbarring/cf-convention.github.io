@@ -134,10 +134,15 @@ def add_conventions(xml_raw):
     return xml_raw
 
 
-def find_duplicate_aliases(xml_raw):
+def find_aliases(xml_raw):
     pat = (r' +?<alias id=".+?</alias> *?\n')
+    found_list = list(re.finditer(pat, xml_raw, re.S))
+    return found_list
+
+
+def find_duplicate_aliases(xml_raw):
     alias_dict = {}
-    for found in re.finditer(pat, xml_raw, re.S):
+    for found in find_aliases(xml_raw):
         res = re.search(r'(?<=").+?(?=">)', found.group())
         res = res.group()
         if res in alias_dict:
@@ -179,6 +184,26 @@ def fix_duplicate_aliases(xml_raw, std_name):
     return xml_raw
 
 
+def remove_space_in_standard_name_entries(xml_raw):
+    pat = r'(?<=entry id=").+? .+?(?=")'
+    for found in re.finditer(pat, xml_raw):
+        found_text = found.group()
+        replace_text = found_text.replace(" ", "_").replace("__", "_")
+        xml_raw = xml_raw[: found.start()] + replace_text + xml_raw[found.end(): ]
+        print(f"   --- replaced '{found_text}' by '{replace_text}'")
+    return xml_raw
+
+
+def remove_aliases_having_spaces(xml_raw):
+    for found in reversed(find_aliases(xml_raw)):
+        f = re.search(r'(?<=").+?(?=")', found.group(), re.S)
+        standard_name = f.group()
+        if " " in standard_name:
+            xml_raw = xml_raw[: found.start()] + xml_raw[found.end(): ]
+            print(f"   --- removed alias for '{standard_name}'")
+    return xml_raw
+
+
 def do_the_work(version):
     xml_file = f"{BASE_PATH}{version}/src/cf-standard-name-table.xml"
     xml_raw = handle_input_file(xml_file)
@@ -199,6 +224,11 @@ def do_the_work(version):
 
     if "<conventions>" not in xml_raw:
         xml_raw = add_conventions(xml_raw)
+
+    xml_raw = remove_space_in_standard_name_entries(xml_raw)
+
+    xml_raw = remove_aliases_having_spaces(xml_raw)
+
 
     duplicate_aliases = find_duplicate_aliases(xml_raw)
     for std_name in duplicate_aliases:
