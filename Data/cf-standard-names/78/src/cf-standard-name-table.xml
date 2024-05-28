@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cf-standard-name-table-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
    <version_number>78</version_number>
-   <last_modified>2021-09-21T11:55:06Z</last_modified>
+  <conventions>CF-StandardNameTable-78</conventions>
+   <first_published>2021-09-21T11:55:06Z</first_published>
+   <last_modified>2024-05-28T12:19:43Z</last_modified>
    <institution>Centre for Environmental Data Analysis</institution>
    <contact>support@ceda.ac.uk</contact>
 
@@ -32180,9 +32182,6 @@
     <entry_id>mole_fraction_of_methylglyoxal_in_air</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_dichlorine peroxide_in_air">
-    <entry_id>mole_fraction_of_dichlorine_peroxide_in_air</entry_id>
-  </alias>
   
   <alias id="mole_fraction_of_total_reactive_nitrogen_in_air">
     <entry_id>mole_fraction_of_noy_expressed_as_nitrogen_in_air</entry_id>
@@ -32404,9 +32403,6 @@
     <entry_id>tendency_of_atmosphere_moles_of_methane</entry_id>
   </alias>
   
-  <alias id="rate_of_ hydroxyl_radical_destruction_due_to_reaction_with_nmvoc">
-    <entry_id>rate_of_hydroxyl_radical_destruction_due_to_reaction_with_nmvoc</entry_id>
-  </alias>
   
   <alias id="sea_ice_displacement">
     <entry_id>magnitude_of_sea_ice_displacement</entry_id>
@@ -33264,13 +33260,12 @@
     <entry_id>tendency_of_atmosphere_mass_content_of_water_vapor_due_to_turbulence</entry_id>
   </alias>
   
+
   <alias id="surface_carbon_dioxide_mole_flux">
     <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
-  </alias>
-  
-  <alias id="surface_carbon_dioxide_mole_flux">
     <entry_id>surface_downward_mole_flux_of_carbon_dioxide</entry_id>
   </alias>
+  
   
   <alias id="atmosphere_cloud_condensed_water_content">
     <entry_id>atmosphere_mass_content_of_cloud_condensed_water</entry_id>
@@ -33544,9 +33539,6 @@
     <entry_id>sea_water_x_velocity</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_hypochlorous acid_in_air">
-    <entry_id>mole_fraction_of_hypochlorous_acid_in_air</entry_id>
-  </alias>
   
   <alias id="tendency_of_moles_of_molecular_hydrogen_in_troposphere">
     <entry_id>tendency_of_troposphere_moles_of_molecular_hydrogen</entry_id>
@@ -33596,13 +33588,7 @@
     <entry_id>tendency_of_atmosphere_mass_content_of_water_due_to_advection</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_chlorine monoxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_monoxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_chlorine dioxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_dioxide_in_air</entry_id>
-  </alias>
   
   <alias id="mass_fraction_of_o3_in_air">
     <entry_id>mass_fraction_of_ozone_in_air</entry_id>

@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFStandardNameTable-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
   <version_number>8</version_number>
-  <last_modified>2008-04-15T23:00:00Z</last_modified>
+  <conventions>CF-StandardNameTable-8</conventions>
+  <first_published>2008-04-15T23:00:00Z</first_published>
+  <last_modified>2024-05-28T12:19:33Z</last_modified>
   <institution>Centre for Environmental Data Analysis</institution>
   <contact>support@ceda.ac.uk</contact>
 
@@ -1477,11 +1479,11 @@
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC12 is CF2Cl2.  The IUPAC name for CFC12 is dichloro-difluoro-methane.</description>
   </entry>
-  <entry id="mole_fraction_of_chlorine dioxide_in_air">
+  <entry id="mole_fraction_of_chlorine_dioxide_in_air">
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of chlorine dioxide is OClO.</description>
   </entry>
-  <entry id="mole_fraction_of_chlorine monoxide_in_air">
+  <entry id="mole_fraction_of_chlorine_monoxide_in_air">
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of chlorine monoxide is ClO.</description>
   </entry>
@@ -1489,7 +1491,7 @@
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of chlorine nitrate is ClONO2.</description>
   </entry>
-  <entry id="mole_fraction_of_dichlorine peroxide_in_air">
+  <entry id="mole_fraction_of_dichlorine_peroxide_in_air">
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.   The chemical formula of dichlorine peroxide is Cl2O2.</description>
   </entry>
@@ -1573,7 +1575,7 @@
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hypobromous acid is HOBr.</description>
   </entry>
-  <entry id="mole_fraction_of_hypochlorous acid_in_air">
+  <entry id="mole_fraction_of_hypochlorous_acid_in_air">
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of hypochlorous acid is HOCl.</description>
   </entry>
@@ -1593,7 +1595,7 @@
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of methyl bromide is CH3Br.</description>
   </entry>
-  <entry id="mole_fraction_of_methyl_chloride _in_air">
+  <entry id="mole_fraction_of_methyl_chloride_in_air">
     <canonical_units>1</canonical_units>
     <description>Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of methyl chloride is CH3Cl.</description>
   </entry>

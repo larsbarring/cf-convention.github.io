@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cf-standard-name-table-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
    <version_number>64</version_number>
-   <last_modified>2019-03-05T11:55:35Z</last_modified>
+  <conventions>CF-StandardNameTable-64</conventions>
+   <first_published>2019-03-05T11:55:35Z</first_published>
+   <last_modified>2024-05-28T12:19:40Z</last_modified>
    <institution>Centre for Environmental Data Analysis</institution>
    <contact>support@ceda.ac.uk</contact>
 
@@ -30474,17 +30476,8 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>wind_mixing_energy_flux_into_sea_water</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_chlorine dioxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_dioxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_chlorine monoxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_monoxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_hypochlorous acid_in_air">
-    <entry_id>mole_fraction_of_hypochlorous_acid_in_air</entry_id>
-  </alias>
   
   <alias id="surface_net_downward_radiative_flux_where_land">
     <entry_id>surface_net_downward_radiative_flux</entry_id>
@@ -30810,13 +30803,12 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>atmosphere_mass_content_of_water_vapor</entry_id>
   </alias>
   
+
   <alias id="surface_carbon_dioxide_mole_flux">
     <entry_id>surface_downward_mole_flux_of_carbon_dioxide</entry_id>
-  </alias>
-  
-  <alias id="surface_carbon_dioxide_mole_flux">
     <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
   </alias>
+  
   
   <alias id="atmosphere_so4_content">
     <entry_id>atmosphere_mass_content_of_sulfate</entry_id>
@@ -32346,9 +32338,6 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_miscellaneous_phytoplankton</entry_id>
   </alias>
   
-  <alias id="rate_of_ hydroxyl_radical_destruction_due_to_reaction_with_nmvoc">
-    <entry_id>rate_of_hydroxyl_radical_destruction_due_to_reaction_with_nmvoc</entry_id>
-  </alias>
   
   <alias id="tendency_of_moles_of_methane_in_atmosphere">
     <entry_id>tendency_of_atmosphere_moles_of_methane</entry_id>
@@ -32358,9 +32347,6 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>mole_fraction_of_noy_expressed_as_nitrogen_in_air</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_dichlorine peroxide_in_air">
-    <entry_id>mole_fraction_of_dichlorine_peroxide_in_air</entry_id>
-  </alias>
   
   <alias id="mole_fraction_of_methlyglyoxal_in_air">
     <entry_id>mole_fraction_of_methylglyoxal_in_air</entry_id>

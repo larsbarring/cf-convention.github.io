@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFStandardNameTable-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
   <version_number>7</version_number>
-  <last_modified>2007-11-20T02:00:00Z</last_modified>
+  <conventions>CF-StandardNameTable-7</conventions>
+  <first_published>2007-11-20T02:00:00Z</first_published>
+  <last_modified>2024-05-28T12:19:33Z</last_modified>
   <institution>Centre for Environmental Data Analysis</institution>
   <contact>support@ceda.ac.uk</contact>
 
