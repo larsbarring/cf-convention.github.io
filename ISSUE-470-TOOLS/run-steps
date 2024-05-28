@@ -1,0 +1,15 @@
+#!/bin/bash
+
+python step1.py > step1.log
+python list_errors.py > step1-error-list.txt
+python compact_errors.py step1-error-list.txt > step1-error-table.txt
+
+python step2.py > step2.log
+python list_errors.py > step2-error-list.txt
+python compact_errors.py step2-error-list.txt > step2-error-table.txt
+
+python list_errors.py -s 1 > CF-error-list.txt
+python compact_errors.py CF-error-list.txt > CF-error-table.txt
+
+python list_errors.py -s 2 > ALL-error-list.txt
+python compact_errors.py ALL-error-list.txt > ALL-error-table.txt
