@@ -1,0 +1,169 @@
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 85 | ---- Valid and Well-formed
+17, 18, 19, 20, 21, 22 | Line 23 : Standard name entry for 'air_density' has no <description>
+17, 18, 19, 20, 21, 22 | Line 32 : Standard name entry for 'air_pressure' has no <description>
+17, 18, 19, 20, 21, 22 | Line 58 : Standard name entry for 'air_pressure_at_freezing_level' has no <description>
+17, 18, 19, 20, 21, 22 | Line 208 : Standard name entry for 'atmosphere_heat_diffusivity' has no <description>
+17 | Line 1068 : Standard name entry for 'atmosphere_momentum_diffusivity' has no <description>
+17 | Line 1233 : Standard name entry for 'bioluminescent_photon_rate_in_sea_water' has no <description>
+17 | Line 1427 : Standard name entry for 'convective_rainfall_rate' has no <description>
+17 | Line 1837 : Standard name entry for 'equivalent_temperature' has no <description>
+17 | Line 1845 : Standard name entry for 'ertel_potential_vorticity' has no <description>
+17 | Line 1873 : Standard name entry for 'freezing_temperature_of_sea_water' has no <description>
+17 | Line 1966 : Standard name entry for 'height_above_sea_floor' has no <description>
+17 | Line 2087 : Standard name entry for 'kinetic_energy_dissipation_in_atmosphere_boundary_layer' has no <description>
+17 | Line 4631 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+17 | Line 4663 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+17 | Line 4852 : Standard name entry for 'ocean_volume' has no <description>
+17 | Line 4883 : Standard name entry for 'planetary_albedo' has no <description>
+17 | Line 5074 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+17 | Line 5101 : Standard name entry for 'rainfall_rate' has no <description>
+17 | Line 5124 : Standard name entry for 'relative_humidity' has no <description>
+17 | Line 5209 : Standard name entry for 'sea_ice_extent' has no <description>
+17 | Line 5216 : Standard name entry for 'sea_ice_mass' has no <description>
+17 | Line 5232 : Standard name entry for 'sea_ice_temperature' has no <description>
+17 | Line 5235 : Standard name entry for 'sea_ice_thickness' has no <description>
+17 | Line 5244 : Standard name entry for 'sea_ice_volume' has no <description>
+17 | Line 5455 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+17 | Line 5509 : Standard name entry for 'sea_water_temperature' has no <description>
+17 | Line 5570 : Standard name entry for 'snow_density' has no <description>
+17 | Line 5573 : Standard name entry for 'snow_grain_size' has no <description>
+17 | Line 8209 : Standard name entry for 'time' has no <description>
+17 | Line 8341 : Standard name entry for 'tropopause_air_pressure' has no <description>
+17 | Line 8745 : Standard name entry for 'wet_bulb_temperature' has no <description>
+18, 19, 20 | Line 1076 : Standard name entry for 'atmosphere_momentum_diffusivity' has no <description>
+18, 19, 20 | Line 1237 : Standard name entry for 'bioluminescent_photon_rate_in_sea_water' has no <description>
+18 | Line 1443 : Standard name entry for 'convective_rainfall_rate' has no <description>
+18 | Line 1857 : Standard name entry for 'equivalent_temperature' has no <description>
+18 | Line 1865 : Standard name entry for 'ertel_potential_vorticity' has no <description>
+18 | Line 1893 : Standard name entry for 'freezing_temperature_of_sea_water' has no <description>
+18 | Line 1986 : Standard name entry for 'height_above_sea_floor' has no <description>
+18 | Line 2107 : Standard name entry for 'kinetic_energy_dissipation_in_atmosphere_boundary_layer' has no <description>
+18 | Line 4667 : Standard name entry for 'number_of_icebergs_per_unit_area' has no <description>
+18 | Line 4674 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+18 | Line 4706 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+18 | Line 4895 : Standard name entry for 'ocean_volume' has no <description>
+18 | Line 4926 : Standard name entry for 'planetary_albedo' has no <description>
+18 | Line 5121 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+18 | Line 5148 : Standard name entry for 'rainfall_rate' has no <description>
+18 | Line 5171 : Standard name entry for 'relative_humidity' has no <description>
+18 | Line 5256 : Standard name entry for 'sea_ice_extent' has no <description>
+18 | Line 5263 : Standard name entry for 'sea_ice_mass' has no <description>
+18 | Line 5279 : Standard name entry for 'sea_ice_temperature' has no <description>
+18 | Line 5282 : Standard name entry for 'sea_ice_thickness' has no <description>
+18 | Line 5291 : Standard name entry for 'sea_ice_volume' has no <description>
+18 | Line 5502 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+18 | Line 5560 : Standard name entry for 'sea_water_temperature' has no <description>
+18 | Line 5621 : Standard name entry for 'snow_density' has no <description>
+18 | Line 5624 : Standard name entry for 'snow_grain_size' has no <description>
+18 | Line 8272 : Standard name entry for 'time' has no <description>
+18 | Line 8404 : Standard name entry for 'tropopause_air_pressure' has no <description>
+18 | Line 8800 : Standard name entry for 'wet_bulb_temperature' has no <description>
+19, 20 | Line 1475 : Standard name entry for 'convective_rainfall_rate' has no <description>
+19, 20 | Line 1889 : Standard name entry for 'equivalent_temperature' has no <description>
+19, 20 | Line 1897 : Standard name entry for 'ertel_potential_vorticity' has no <description>
+19, 20 | Line 1925 : Standard name entry for 'freezing_temperature_of_sea_water' has no <description>
+19, 20 | Line 2018 : Standard name entry for 'height_above_sea_floor' has no <description>
+19, 20 | Line 2139 : Standard name entry for 'kinetic_energy_dissipation_in_atmosphere_boundary_layer' has no <description>
+19 | Line 4735 : Standard name entry for 'number_of_icebergs_per_unit_area' has no <description>
+19 | Line 4742 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+19 | Line 4774 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+19 | Line 4963 : Standard name entry for 'ocean_volume' has no <description>
+19 | Line 4994 : Standard name entry for 'planetary_albedo' has no <description>
+19 | Line 5189 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+19 | Line 5216 : Standard name entry for 'rainfall_rate' has no <description>
+19 | Line 5239 : Standard name entry for 'relative_humidity' has no <description>
+19 | Line 5324 : Standard name entry for 'sea_ice_extent' has no <description>
+19 | Line 5331 : Standard name entry for 'sea_ice_mass' has no <description>
+19 | Line 5347 : Standard name entry for 'sea_ice_temperature' has no <description>
+19 | Line 5350 : Standard name entry for 'sea_ice_thickness' has no <description>
+19 | Line 5359 : Standard name entry for 'sea_ice_volume' has no <description>
+19 | Line 5582 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+19 | Line 5722 : Standard name entry for 'snow_density' has no <description>
+19 | Line 5725 : Standard name entry for 'snow_grain_size' has no <description>
+19 | Line 8373 : Standard name entry for 'time' has no <description>
+19 | Line 8505 : Standard name entry for 'tropopause_air_pressure' has no <description>
+19 | Line 8901 : Standard name entry for 'wet_bulb_temperature' has no <description>
+20 | Line 4743 : Standard name entry for 'number_of_icebergs_per_unit_area' has no <description>
+20 | Line 4750 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+20 | Line 4782 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+20 | Line 4971 : Standard name entry for 'ocean_volume' has no <description>
+20 | Line 5002 : Standard name entry for 'planetary_albedo' has no <description>
+20 | Line 5197 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+20 | Line 5224 : Standard name entry for 'rainfall_rate' has no <description>
+20 | Line 5247 : Standard name entry for 'relative_humidity' has no <description>
+20 | Line 5332 : Standard name entry for 'sea_ice_extent' has no <description>
+20 | Line 5339 : Standard name entry for 'sea_ice_mass' has no <description>
+20 | Line 5355 : Standard name entry for 'sea_ice_temperature' has no <description>
+20 | Line 5358 : Standard name entry for 'sea_ice_thickness' has no <description>
+20 | Line 5367 : Standard name entry for 'sea_ice_volume' has no <description>
+20 | Line 5590 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+20 | Line 5730 : Standard name entry for 'snow_density' has no <description>
+20 | Line 5733 : Standard name entry for 'snow_grain_size' has no <description>
+20 | Line 6664 : Standard name entry for 'tendency_of_air_temperature_due_to_radiative_heating' has no <canonical_units>
+20 | Line 9325 : Standard name entry for 'time' has no <description>
+20 | Line 9457 : Standard name entry for 'tropopause_air_pressure' has no <description>
+20 | Line 9861 : Standard name entry for 'wet_bulb_temperature' has no <description>
+21, 22 | Line 1080 : Standard name entry for 'atmosphere_momentum_diffusivity' has no <description>
+21, 22 | Line 1241 : Standard name entry for 'bioluminescent_photon_rate_in_sea_water' has no <description>
+21, 22 | Line 1479 : Standard name entry for 'convective_rainfall_rate' has no <description>
+21, 22 | Line 1893 : Standard name entry for 'equivalent_temperature' has no <description>
+21, 22 | Line 1901 : Standard name entry for 'ertel_potential_vorticity' has no <description>
+21, 22 | Line 1929 : Standard name entry for 'freezing_temperature_of_sea_water' has no <description>
+21, 22 | Line 2022 : Standard name entry for 'height_above_sea_floor' has no <description>
+21, 22 | Line 2147 : Standard name entry for 'kinetic_energy_dissipation_in_atmosphere_boundary_layer' has no <description>
+21, 22 | Line 2173 : Standard name entry for 'land_cover_lccs' has no <canonical_units>
+21 | Line 4762 : Standard name entry for 'number_of_icebergs_per_unit_area' has no <description>
+21 | Line 4769 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+21 | Line 4801 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+21 | Line 4990 : Standard name entry for 'ocean_volume' has no <description>
+21 | Line 5021 : Standard name entry for 'planetary_albedo' has no <description>
+21 | Line 5216 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+21 | Line 5243 : Standard name entry for 'rainfall_rate' has no <description>
+21 | Line 5266 : Standard name entry for 'relative_humidity' has no <description>
+21 | Line 5355 : Standard name entry for 'sea_ice_extent' has no <description>
+21 | Line 5362 : Standard name entry for 'sea_ice_mass' has no <description>
+21 | Line 5378 : Standard name entry for 'sea_ice_temperature' has no <description>
+21 | Line 5381 : Standard name entry for 'sea_ice_thickness' has no <description>
+21 | Line 5390 : Standard name entry for 'sea_ice_volume' has no <description>
+21 | Line 5613 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+21 | Line 5753 : Standard name entry for 'snow_density' has no <description>
+21 | Line 5756 : Standard name entry for 'snow_grain_size' has no <description>
+21 | Line 6691 : Standard name entry for 'tendency_of_air_temperature_due_to_radiative_heating' has no <canonical_units>
+21 | Line 9351 : Standard name entry for 'time' has no <description>
+21 | Line 9483 : Standard name entry for 'tropopause_air_pressure' has no <description>
+21 | Line 9887 : Standard name entry for 'wet_bulb_temperature' has no <description>
+22 | Line 4766 : Standard name entry for 'number_of_icebergs_per_unit_area' has no <description>
+22 | Line 4773 : Standard name entry for 'ocean_barotropic_streamfunction' has no <description>
+22 | Line 4805 : Standard name entry for 'ocean_isopycnal_layer_thickness_diffusivity' has no <description>
+22 | Line 4994 : Standard name entry for 'ocean_volume' has no <description>
+22 | Line 5025 : Standard name entry for 'planetary_albedo' has no <description>
+22 | Line 5220 : Standard name entry for 'pseudo_equivalent_temperature' has no <description>
+22 | Line 5247 : Standard name entry for 'rainfall_rate' has no <description>
+22 | Line 5270 : Standard name entry for 'relative_humidity' has no <description>
+22 | Line 5359 : Standard name entry for 'sea_ice_extent' has no <description>
+22 | Line 5366 : Standard name entry for 'sea_ice_mass' has no <description>
+22 | Line 5382 : Standard name entry for 'sea_ice_temperature' has no <description>
+22 | Line 5385 : Standard name entry for 'sea_ice_thickness' has no <description>
+22 | Line 5394 : Standard name entry for 'sea_ice_volume' has no <description>
+22 | Line 5617 : Standard name entry for 'sea_water_electrical_conductivity' has no <description>
+22 | Line 5761 : Standard name entry for 'snow_density' has no <description>
+22 | Line 5764 : Standard name entry for 'snow_grain_size' has no <description>
+22 | Line 6703 : Standard name entry for 'tendency_of_air_temperature_due_to_radiative_heating' has no <canonical_units>
+22 | Line 9431 : Standard name entry for 'time' has no <description>
+22 | Line 9563 : Standard name entry for 'tropopause_air_pressure' has no <description>
+22 | Line 9967 : Standard name entry for 'wet_bulb_temperature' has no <description>
+26 | Line 14971 : Standard name entry for 'tendency_of_atmosphere_moles_of_methanol' has no <canonical_units>
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_miscellaneous_phytoplankton' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_phytoplankton' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_due_to_nitrate_utilization' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_productivity_of_carbon' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_productivity_of_carbon_accumulated_in_leaves' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_productivity_of_carbon_accumulated_in_roots' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_productivity_of_carbon_accumulated_in_wood' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_picophytoplankton' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'atmosphere_specific_convective_available_potential_energy' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'gross_primary_productivity_of_carbon' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_calcareous_phytoplankton' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_diatoms' is not a valid value of the atomic type 'xs:ID'.
+26 | Element 'alias', attribute 'id': 'net_primary_mole_productivity_of_carbon_by_diazotrophs' is not a valid value of the atomic type 'xs:ID'.
+83, 84 | Element 'entry', attribute 'id': 'drainage_amount_through_base_of_soil_model' is not a valid value of the atomic type 'xs:ID'.
