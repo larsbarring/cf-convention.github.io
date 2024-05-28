@@ -1,6 +1,9 @@
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cf-standard-name-table-1.1.xsd">
+<?xml version="1.0"?>
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
    <version_number>18</version_number>
-   <last_modified>2011-07-22T10:58:54Z</last_modified>
+  <conventions>CF-StandardNameTable-18</conventions>
+   <first_published>2011-07-22T10:58:54Z</first_published>
+   <last_modified>2024-05-28T12:19:33Z</last_modified>
    <institution>Centre for Environmental Data Analysis</institution>
    <contact>support@ceda.ac.uk</contact>
 
@@ -19,6 +22,7 @@
    </entry>
    <entry id="air_density">
       <canonical_units>kg m-3</canonical_units>
+      <description></description>
    </entry>
    <entry id="air_potential_temperature">
       <canonical_units>K</canonical_units>
@@ -28,6 +32,7 @@
    </entry>
    <entry id="air_pressure">
       <canonical_units>Pa</canonical_units>
+      <description></description>
       <grib>1</grib>
       <amip>plev</amip>
    </entry>
@@ -54,6 +59,7 @@
    </entry>
    <entry id="air_pressure_at_freezing_level">
       <canonical_units>Pa</canonical_units>
+      <description></description>
    </entry>
    <entry id="air_pressure_at_sea_level">
       <canonical_units>Pa</canonical_units>
@@ -204,6 +210,7 @@
    </entry>
    <entry id="atmosphere_heat_diffusivity">
       <canonical_units>m2 s-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="atmosphere_horizontal_streamfunction">
       <canonical_units>m2 s-1</canonical_units>
@@ -1072,6 +1079,7 @@
    </entry>
    <entry id="atmosphere_momentum_diffusivity">
       <canonical_units>m2 s-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="atmosphere_net_rate_of_absorption_of_longwave_energy">
       <canonical_units>W m-2</canonical_units>
@@ -1233,6 +1241,7 @@
    </entry>
    <entry id="bioluminescent_photon_rate_in_sea_water">
       <canonical_units>s-1 m-3</canonical_units>
+      <description></description>
    </entry>
    <entry id="biomass_burning_carbon_flux">
       <canonical_units>kg m-2 s-1</canonical_units>
@@ -1439,6 +1448,7 @@
    </entry>
    <entry id="convective_rainfall_rate">
       <canonical_units>m s-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="convective_snowfall_amount">
       <canonical_units>kg m-2</canonical_units>
@@ -1853,6 +1863,7 @@
    </entry>
    <entry id="equivalent_temperature">
       <canonical_units>K</canonical_units>
+      <description></description>
    </entry>
    <entry id="equivalent_thickness_at_stp_of_atmosphere_ozone_content">
       <canonical_units>m</canonical_units>
@@ -1861,6 +1872,7 @@
    </entry>
    <entry id="ertel_potential_vorticity">
       <canonical_units>K m2 kg-1 s-1</canonical_units>
+      <description></description>
       <amip>vorpot</amip>
    </entry>
    <entry id="fast_soil_pool_carbon_content">
@@ -1889,6 +1901,7 @@
    </entry>
    <entry id="freezing_temperature_of_sea_water">
       <canonical_units>K</canonical_units>
+      <description></description>
    </entry>
    <entry id="frozen_water_content_of_soil_layer">
       <canonical_units>kg m-2</canonical_units>
@@ -1982,6 +1995,7 @@
    </entry>
    <entry id="height_above_sea_floor">
       <canonical_units>m</canonical_units>
+      <description></description>
    </entry>
    <entry id="height_at_cloud_top">
       <canonical_units>m</canonical_units>
@@ -2103,6 +2117,7 @@
    </entry>
    <entry id="kinetic_energy_dissipation_in_atmosphere_boundary_layer">
       <canonical_units>W m-2</canonical_units>
+      <description></description>
       <grib>E145</grib>
    </entry>
    <entry id="lagrangian_tendency_of_air_pressure">
@@ -4663,6 +4678,7 @@
    </entry>
    <entry id="number_of_icebergs_per_unit_area">
       <canonical_units>m-2</canonical_units>
+      <description></description>
    </entry>
    <entry id="ocean_barotropic_mass_streamfunction">
       <canonical_units>kg s-1</canonical_units>
@@ -4670,6 +4686,7 @@
    </entry>
    <entry id="ocean_barotropic_streamfunction">
       <canonical_units>m3 s-1</canonical_units>
+      <description></description>
       <amip>stfbaro</amip>
    </entry>
    <entry id="ocean_heat_x_transport">
@@ -4702,6 +4719,7 @@
    </entry>
    <entry id="ocean_isopycnal_layer_thickness_diffusivity">
       <canonical_units>m2 s-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="ocean_kinetic_energy_dissipation_per_unit_area_due_to_vertical_friction">
       <canonical_units>W m-2</canonical_units>
@@ -4891,6 +4909,7 @@
    </entry>
    <entry id="ocean_volume">
       <canonical_units>m3</canonical_units>
+      <description></description>
    </entry>
    <entry id="ocean_volume_fraction">
       <canonical_units>1</canonical_units>
@@ -4922,6 +4941,7 @@
    </entry>
    <entry id="planetary_albedo">
       <canonical_units>1</canonical_units>
+      <description></description>
    </entry>
    <entry id="plant_respiration_carbon_flux">
       <canonical_units>kg m-2 s-1</canonical_units>
@@ -5117,6 +5137,7 @@
    </entry>
    <entry id="pseudo_equivalent_temperature">
       <canonical_units>K</canonical_units>
+      <description></description>
    </entry>
    <entry id="radial_sea_water_velocity_away_from_instrument">
       <canonical_units>m s-1</canonical_units>
@@ -5144,6 +5165,7 @@
    </entry>
    <entry id="rainfall_rate">
       <canonical_units>m s-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="ratio_of_x_derivative_of_ocean_rigid_lid_pressure_to_sea_surface_density">
       <canonical_units>m s-2</canonical_units>
@@ -5167,6 +5189,7 @@
    </entry>
    <entry id="relative_humidity">
       <canonical_units>1</canonical_units>
+      <description></description>
       <grib>52 E157</grib>
       <amip>hur</amip>
    </entry>
@@ -5252,6 +5275,7 @@
    </entry>
    <entry id="sea_ice_extent">
       <canonical_units>m2</canonical_units>
+      <description></description>
    </entry>
    <entry id="sea_ice_freeboard">
       <canonical_units>m</canonical_units>
@@ -5259,6 +5283,7 @@
    </entry>
    <entry id="sea_ice_mass">
       <canonical_units>kg</canonical_units>
+      <description></description>
    </entry>
    <entry id="sea_ice_salinity">
       <canonical_units>psu</canonical_units>
@@ -5275,9 +5300,11 @@
    </entry>
    <entry id="sea_ice_temperature">
       <canonical_units>K</canonical_units>
+      <description></description>
    </entry>
    <entry id="sea_ice_thickness">
       <canonical_units>m</canonical_units>
+      <description></description>
       <grib>92</grib>
       <amip>sit</amip>
    </entry>
@@ -5287,6 +5314,7 @@
    </entry>
    <entry id="sea_ice_volume">
       <canonical_units>m3</canonical_units>
+      <description></description>
    </entry>
    <entry id="sea_ice_x_displacement">
       <canonical_units>m</canonical_units>
@@ -5498,6 +5526,7 @@
    </entry>
    <entry id="sea_water_electrical_conductivity">
       <canonical_units>S m-1</canonical_units>
+      <description></description>
    </entry>
    <entry id="sea_water_mass">
       <canonical_units>kg</canonical_units>
@@ -5556,6 +5585,7 @@
    </entry>
    <entry id="sea_water_temperature">
       <canonical_units>K</canonical_units>
+      <description></description>
       <grib>80</grib>
       <amip>to</amip>
    </entry>
@@ -5617,9 +5647,11 @@
    </entry>
    <entry id="snow_density">
       <canonical_units>kg m-3</canonical_units>
+      <description></description>
    </entry>
    <entry id="snow_grain_size">
       <canonical_units>m</canonical_units>
+      <description></description>
    </entry>
    <entry id="snowfall_amount">
       <canonical_units>kg m-2</canonical_units>
@@ -8268,6 +8300,7 @@
    </entry>
    <entry id="time">
       <canonical_units>s</canonical_units>
+      <description></description>
       <amip>time</amip>
    </entry>
    <entry id="toa_adjusted_longwave_forcing">
@@ -8400,6 +8433,7 @@
    </entry>
    <entry id="tropopause_air_pressure">
       <canonical_units>Pa</canonical_units>
+      <description></description>
    </entry>
    <entry id="tropopause_air_temperature">
       <canonical_units>K</canonical_units>
@@ -8796,6 +8830,7 @@
    </entry>
    <entry id="wet_bulb_temperature">
       <canonical_units>K</canonical_units>
+      <description></description>
    </entry>
    <entry id="wind_from_direction">
       <canonical_units>degree</canonical_units>
@@ -9076,18 +9111,6 @@
    <alias id="mole_concentration_of_phytoplankton_in_sea_water_expressed_as_nitrogen">
       <entry_id>mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water</entry_id>
    </alias>
-   <alias id="mole_fraction_of_chlorine dioxide_in_air">
-      <entry_id>mole_fraction_of_chlorine_dioxide_in_air</entry_id>
-   </alias>
-   <alias id="mole_fraction_of_chlorine monoxide_in_air">
-      <entry_id>mole_fraction_of_chlorine_monoxide_in_air</entry_id>
-   </alias>
-   <alias id="mole_fraction_of_dichlorine peroxide_in_air">
-      <entry_id>mole_fraction_of_dichlorine_peroxide_in_air</entry_id>
-   </alias>
-   <alias id="mole_fraction_of_hypochlorous acid_in_air">
-      <entry_id>mole_fraction_of_hypochlorous_acid_in_air</entry_id>
-   </alias>
    <alias id="mole_fraction_of_total_inorganic_bromine_in_air">
       <entry_id>mole_fraction_of_inorganic_bromine_in_air</entry_id>
    </alias>
@@ -9196,8 +9219,10 @@
    <alias id="large_scale_snowfall_flux">
       <entry_id>stratiform_snowfall_flux</entry_id>
    </alias>
+
    <alias id="surface_carbon_dioxide_mole_flux">
       <entry_id>surface_downward_mole_flux_of_carbon_dioxide</entry_id>
+      <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
    </alias>
    <alias id="surface_downwelling_longwave_flux">
       <entry_id>surface_downwelling_longwave_flux_in_air</entry_id>
@@ -9243,9 +9268,6 @@
    </alias>
    <alias id="surface_temperature_where_snow">
       <entry_id>surface_temperature</entry_id>
-   </alias>
-   <alias id="surface_carbon_dioxide_mole_flux">
-      <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
    </alias>
    <alias id="surface_upward_sensible_heat_flux_where_sea">
       <entry_id>surface_upward_sensible_heat_flux</entry_id>

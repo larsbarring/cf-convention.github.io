@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFStandardNameTable-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
   <version_number>4</version_number>
-  <last_modified>2007-03-09T17:00:00Z</last_modified>
+  <conventions>CF-StandardNameTable-4</conventions>
+  <first_published>2007-03-09T17:00:00Z</first_published>
+  <last_modified>2024-05-28T12:19:33Z</last_modified>
   <institution>Centre for Environmental Data Analysis</institution>
   <contact>support@ceda.ac.uk</contact>
   <entry id="aerosol_angstrom_exponent">
@@ -3457,10 +3459,9 @@
   <alias id="specific_potential_energy">
     <entry_id>specific_gravitational_potential_energy</entry_id>
   </alias>
+
   <alias id="surface_downwelling_longwave_flux">
     <entry_id>surface_downwelling_longwave_flux_in_air</entry_id>
-  </alias>
-  <alias id="surface_downwelling_longwave_flux">
     <entry_id>surface_downwelling_longwave_flux_in_air_assuming_clear_sky</entry_id>
   </alias>
   <alias id="surface_downwelling_shortwave_flux">

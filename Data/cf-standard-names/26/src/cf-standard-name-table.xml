@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
-<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cf-standard-name-table-1.1.xsd">
+<standard_name_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://cfconventions.org/Data/schema-files/cf-standard-name-table-2.0.xsd">
    <version_number>26</version_number>
-   <last_modified>2013-11-08T06:16:17Z</last_modified>
+  <conventions>CF-StandardNameTable-26</conventions>
+   <first_published>2013-11-08T06:16:17Z</first_published>
+   <last_modified>2024-05-28T12:19:34Z</last_modified>
    <institution>Centre for Environmental Data Analysis</institution>
    <contact>support@ceda.ac.uk</contact>
 
@@ -14967,6 +14969,7 @@ final_air_pressure_of_lifted_parcel should be specified to indicate the specific
    </entry>
   
    <entry id="tendency_of_atmosphere_moles_of_methanol">
+      <canonical_units></canonical_units>
       <description>&quot;tendency_of_X&quot; means derivative of X with respect to time. The construction &quot;atmosphere_moles_of_X&quot; means the total number of moles of X in the entire atmosphere, i.e. summed over the atmospheric column and over the entire globe. The chemical formula for methanol is CH4.</description>
    </entry>
   
@@ -17898,8 +17901,10 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>isotropic_shortwave_radiance_in_air</entry_id>
   </alias>
   
+
   <alias id="spectral_radiance">
     <entry_id>isotropic_spectral_radiance_in_air</entry_id>
+    <entry_id>isotropic_radiance_per_unit_wavelength_in_air</entry_id>
   </alias>
   
   <alias id="dissipation_in_atmosphere_boundary_layer">
@@ -18030,21 +18035,9 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water</entry_id>
   </alias>
   
-  <alias id="mole_fraction_of_chlorine dioxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_dioxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_chlorine monoxide_in_air">
-    <entry_id>mole_fraction_of_chlorine_monoxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_dichlorine peroxide_in_air">
-    <entry_id>mole_fraction_of_dichlorine_peroxide_in_air</entry_id>
-  </alias>
   
-  <alias id="mole_fraction_of_hypochlorous acid_in_air">
-    <entry_id>mole_fraction_of_hypochlorous_acid_in_air</entry_id>
-  </alias>
   
   <alias id="mole_fraction_of_total_inorganic_bromine_in_air">
     <entry_id>mole_fraction_of_inorganic_bromine_in_air</entry_id>
@@ -18190,8 +18183,10 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>stratiform_snowfall_flux</entry_id>
   </alias>
   
+
   <alias id="surface_carbon_dioxide_mole_flux">
     <entry_id>surface_downward_mole_flux_of_carbon_dioxide</entry_id>
+    <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
   </alias>
   
   <alias id="surface_downwelling_longwave_flux">
@@ -18254,9 +18249,6 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>surface_temperature</entry_id>
   </alias>
   
-  <alias id="surface_carbon_dioxide_mole_flux">
-    <entry_id>surface_upward_mole_flux_of_carbon_dioxide</entry_id>
-  </alias>
   
   <alias id="surface_upward_sensible_heat_flux_where_sea">
     <entry_id>surface_upward_sensible_heat_flux</entry_id>
@@ -18694,9 +18686,6 @@ monitored sensor. This TOA brightness temperature difference is a measure of the
     <entry_id>isotropic_radiance_per_unit_wavelength_in_air</entry_id>
   </alias>
   
-  <alias id="spectral_radiance">
-    <entry_id>isotropic_radiance_per_unit_wavelength_in_air</entry_id>
-  </alias>
   
   <alias id="downwelling_spectral_radiance_in_air">
     <entry_id>downwelling_radiance_per_unit_wavelength_in_air</entry_id>
