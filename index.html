@@ -25,10 +25,43 @@
         padding-bottom: 20px;
       }
       p a.anchor {
-        display: block; 
+        display: block;
         position: relative;
-        top: -50px; 
+        top: -50px;
         visibility: hidden;
+      }
+    </style>
+    <style>
+      .flash-message {
+        padding: 1em;
+        margin-bottom: 1em;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        text-align: center;
+      }
+
+      .flash-info {
+        background-color: #d9edf7;
+        color: #31708f;
+        border-color: #bce8f1;
+      }
+
+      .flash-success {
+        background-color: #dff0d8;
+        color: #3c763d;
+        border-color: #d6e9c6;
+      }
+
+      .flash-warning {
+        background-color: #fcf8e3;
+        color: #8a6d3b;
+        border-color: #faebcc;
+      }
+
+      .flash-error {
+        background-color: #f2dede;
+        color: #a94442;
+        border-color: #ebccd1;
       }
     </style>
   </head>
@@ -102,6 +135,28 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
       <li><a href="/cf-convention.github.io/conventions.html">Conventions</a></li>
     
@@ -126,16 +181,18 @@
   
 
   
+    
+      <li><a href="/cf-convention.github.io/Training/">Training</a></li>
+    
+  
+
+  
+
+  
 
   
     
       <li><a href="/cf-convention.github.io/Meetings/">Meetings</a></li>
-    
-  
-
-  
-    
-      <li><a href="/cf-convention.github.io/Training/">Training</a></li>
     
   
 
@@ -189,21 +246,26 @@
       </div>
     </div>
 
+    
+    <div class="flash-message flash-success">
+      Save the date: The <strong>2025 CF Conventions Workshop</strong> will be hosted online during the week 22nd-26th September! View more details <a href='https://github.com/orgs/cf-convention/discussions/415' target='_blank'>here.</a>
+    </div>
+    
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
     <div class="container">
 
       <h1 id="cf-metadata-conventions">CF Metadata Conventions</h1>
 
-<p>The CF metadata conventions are designed to promote the processing and sharing of files created with the <a href="https://www.unidata.ucar.edu/software/netcdf/index.html">NetCDF API</a>. 
-The conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data. 
+<p>The CF metadata conventions are designed to promote the processing and sharing of files created with the <a href="https://www.unidata.ucar.edu/software/netcdf/index.html">NetCDF API</a>.
+The conventions define metadata that provide a definitive description of what the data in each variable represents, and the spatial and temporal properties of the data.
 This enables users of data from different sources to decide which quantities are comparable, and facilitates building applications with powerful extraction, regridding, and display capabilities.
 The CF convention includes a standard name table, which defines strings that identify physical quantities.</p>
 
 <hr />
 
 <p><a href="https://github.com/orgs/cf-convention/discussions/new?category=q-a-about-using-cf"><strong><em>Ask a question</em> ❓ about how to use CF</strong></a><br />
-<strong><em>Read the conventions</em>:</strong> <strong>Latest release</strong> (1.11) <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.11/cf-conventions.html">HTML</a> <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.11/cf-conventions.pdf">PDF</a> • 
+<strong><em>Read the conventions</em>:</strong> <strong>Latest release</strong> (1.12) <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.html">HTML</a> <a href="/cf-convention.github.io/Data/cf-conventions/cf-conventions-1.12/cf-conventions.pdf">PDF</a> • 
 <strong>Working draft</strong> <a href="/cf-conventions/cf-conventions.html">HTML</a> <a href="/cf-conventions/cf-conventions.pdf">PDF</a><br />
 <strong><em>Check the latest vocabularies</em>:</strong> <a href="/cf-convention.github.io/Data/cf-standard-names/current/build/cf-standard-name-table.html"><strong>Standard names</strong></a> • 
 <a href="/cf-convention.github.io/Data/area-type-table/current/build/area-type-table.html"><strong>Area types</strong></a> • 
@@ -231,7 +293,12 @@ The use of CF is recommended where applicable by Unidata.</p>
   <li><a href="/cf-convention.github.io/software.html">List of software for working with CF</a></li>
   <li><a href="/cf-convention.github.io/projects-activities.html">List of Projects and Activities that Use the CF Metadata Conventions</a></li>
   <li><a href="https://doi.org/10.5194/gmd-10-4619-2017">Paper</a> describing the CF data model and reference software</li>
-  <li>Overview of CF basics as a <a href="/cf-convention.github.io/Data/cf-documents/overview/viewgraphs.pdf">presentation</a> and <a href="/cf-convention.github.io/Data/cf-documents/overview/article.pdf">paper</a></li>
+  <li>Overview of CF basics
+    <ul>
+      <li>High-level presentation (<a href="https://doi.org/10.5281/zenodo.15015065">DOI</a>, <a href="https://zenodo.org/records/15015065/files/2024-12_AGU_CF_OpenSciPrize_presentation.pdf?download=1&amp;preview=1">PDF</a> - from 2024 AGU)</li>
+      <li>More detailed <a href="/cf-convention.github.io/Data/cf-documents/overview/viewgraphs.pdf">presentation</a> and <a href="/cf-convention.github.io/Data/cf-documents/overview/article.pdf">paper</a></li>
+    </ul>
+  </li>
 </ul>
 
 
@@ -253,7 +320,7 @@ The use of CF is recommended where applicable by Unidata.</p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="/cf-convention.github.io/Data/media/js/links.js"></script>
 
   </body>
